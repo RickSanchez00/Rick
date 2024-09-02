@@ -1,0 +1,39 @@
+body{
+    margin: 10;
+    padding: 10;
+    background: url(weeeebbb.jpg);
+    background-size: cover;
+}
+.box{
+
+    width: 300px;
+    background:  #069496;
+    padding: 80px;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    color: white;         
+}
+.box img{
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: #ffffff;
+    font-size: 60px;
+    transition: all ease-in-out;
+}
